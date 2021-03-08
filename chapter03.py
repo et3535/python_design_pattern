@@ -82,3 +82,5 @@ if __name__=='__main__':
     profile_type = input("linkedin or facebook")
     profile = eval(profile_type.lower())()
     print("Profile has section --", profile.getSection())
+
+#Abstract Factory Pattern
