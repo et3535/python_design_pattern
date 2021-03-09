@@ -15,4 +15,12 @@ chapter03 : Python Design Factory!
 - abstract , inherit, create 
 
 chapter04 : 퍼사드 패턴 (구조)
-- 
+- 인터페이스 안에 객체 및 기능을 추가하여, 인터페이스만으로 기능을 사용
+
+chapter05 : Proxy 패턴 (구조)
+- 프록시와 퍼사드와 비교 필요(행위를 직접 요청 vs 서브시스템을 하나의 인터페이스로 구조화)
+- The purpose of the Proxy is to add behavior while The purpose of the Facade is to simplify, which may actually involve removing behavior.
+Proxy object represents a singly object while Facade object represents a subsystem of object.
+The client object cannot access target object directly while client object does have ability to access subsystem object.
+Proxy object provides access control to the single target object while Facade object provides simplified higher level interface to a subsystem of objects/components
+-> https://www.mysoftkey.com/design-pattern/design-pattern-proxy-versus-facade/
