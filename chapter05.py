@@ -23,6 +23,7 @@ class Agent(object):
             self.actor.occupied()
         else:
             self.actor.available()
-if __name__=="__main__":
-    r = Agent()
-    r.work()
+# if __name__=="__main__":
+#     r = Agent()
+#     r.work()
+
