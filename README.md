@@ -30,3 +30,9 @@ chapter06
 #Observer Pattern pull or push method example
 #subject와 observer 객체를 연결 
  -> subject 변경시에 연결되어 있는 observer 객체 method를 실행하여 데이터를 전달
+
+
+chapter07
+#Command Pttern 
+#주식 트레이등 관련 매수 매도 주문시에 주문에 대한 순서를 queue에 담아서 메서드를 순차적으로 실행
+#Receiver, ConcreateCommand , Agent 등 구조를 만들어서 수행하는 행위 패턴
