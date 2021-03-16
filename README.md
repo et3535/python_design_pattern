@@ -33,6 +33,12 @@ chapter06
 
 
 chapter07
-#Command Pttern 
+#Command Pattern 
 #주식 트레이등 관련 매수 매도 주문시에 주문에 대한 순서를 queue에 담아서 메서드를 순차적으로 실행
 #Receiver, ConcreateCommand , Agent 등 구조를 만들어서 수행하는 행위 패턴
+
+chpater08
+#Templete Pattern
+#추상화 클래스에 공통으로 사용할 메서드를 정의
+#추상화 클래스에 정의된 메서드 수행 내용을 작성
+#템플릿 메서드를 수행하여 공통 서브 클래스 수행
